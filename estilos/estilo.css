@@ -1,0 +1,423 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+body{
+    background: #0F0738;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background: url(../imagens/bg-container.png) top center repeat-y #0F0773;
+    margin: 0 auto;
+    min-width: 950px;
+    max-width: 1080px;
+}
+
+/* Início cabeçalho*/
+#topo{
+    background-color: #0F0773;
+    height: 200px;
+    min-height: 200px;
+    position: relative;
+}
+#cabecalho-esquerda{
+    height: 200px;
+    width: 100%;
+    background: url(../imagens/cabecalho.jpg) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#cabecalho-esquerda a{
+    text-decoration: none;
+    background: url(../imagens/logo.png) no-repeat;
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    width: 150px;
+    height: 50px;
+    z-index: 3;
+    text-indent: 
+    -900px;
+}
+
+#cabecalho-direita{
+    width: 300px;
+    height: 200px;
+    background: url(../imagens/cabecalho-lateral.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+#cabecalho-direita h1{
+    color: white;
+    margin-top: 5px;
+    text-indent: 30px;
+    text-align: center;
+    border-top: 1px  dotted white;
+    margin-left: 30px;
+    width: 260px;
+}
+ #cabecalho-direita h3{
+    color: white;
+    font-size: 0.8em;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+#cabecalho-direita h3 a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
+
+#cabecalho-direita h2{
+    font-size: 1.2em;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#alinhamento{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    width: 270px;
+    border-bottom: 1px  dotted white;
+    text-align: center;
+}
+
+#alinhamento h3{
+    display: inline;
+}
+#alinhamento h2{
+    text-align: center;
+}
+/* final cabeçalho */
+/* menu */
+#menus {
+    width: 1060px;
+    background-color: #2F2D72;
+    color: #ffff;
+    padding: 10px;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    position: fixed;
+    left: 172px;
+    height: 50px;
+    
+}
+#menus img{
+    width: 90px;
+    height: 90px;
+    float: right;
+    margin:  -85px 0px 0px 1060px;
+
+}
+#menus h2{
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+#menus a{
+    text-decoration: none;
+    color: white;
+    margin: -25px 100px 0px 0px;
+
+}
+#menus a img{
+    float: left;
+    margin: -25px 0px 0px 0px;
+    width: 90px;
+    height: 90px;
+}
+
+/* Inicio conteúdo */
+#conteudo {
+    min-width: 1080px;
+    max-width: 1200px;
+}
+#primario  {
+    width: 500px;
+	margin: 10px  0px 20px 230px ;
+    background-color: white;
+    float: left;
+}
+
+#pagina-animes #primario {
+    width: 760px;
+    margin: 10px 0px 20px 0px;
+    background-color: #0F0738;
+}
+
+#terciario #primario {
+    width: 1080px;
+    margin: 10px 0px 20px 0px;
+    background-color: #0F0738;
+}
+#conteudo-primario{
+    padding: 10px;
+}
+#secundario {
+    width: 300px;
+    float: right;
+    margin-top: 10px;    
+}
+#lista-animes {
+	width: 180px;
+    margin: 10px 0 20px -730px;
+    float: left;
+}
+
+#rodape{
+    background-color: #2F2D90;
+    color: white;
+    text-align: center;
+    clear: both;
+
+}
+#rodape h3, #rodape p{
+    display: inline;
+}
+#conteudo h2{
+    background-color: #2F2D72;
+    color: #ffff;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+#conteudo ul a {
+    text-decoration: none;
+}
+
+#conteudo li{
+    padding: 15px;
+    background-color: #25569C;
+
+}
+
+#lista-animes li a{
+    color: white;
+    width: 200px;
+    
+}
+
+#lista-animes li:hover{
+    background-color: #63CFF2;
+}
+
+/*fim da lista de animes */
+
+/* inicio das postagens */
+
+.postagens {
+    background: white;
+    padding: 5px;
+    padding-left: 15px;
+    color: #666666;
+    border-bottom: 1px dashed #6e6e6e;
+
+
+}
+
+
+
+#pagina-animes .postagens{
+    border: none;
+}
+.postagens img{
+    width: 90%;
+    height: 50%;
+}
+
+.postagens h3{
+    padding-top: 15px;
+    font-size: 1.4em;
+}
+.postagens a{
+    text-decoration: none;
+}
+
+/* fim das postagens */
+
+/* inicio dos fórus */
+
+#foruns{
+    margin-bottom: 50px;
+}
+#foruns a{
+    text-decoration: none;
+}
+
+.link_foruns:hover{
+    background-color: gray;
+    color: white;
+}
+.link_foruns{
+    padding: 10px;
+    background-color: white;
+    border-bottom: 1px dashed black;
+}
+.link_foruns img{
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+.link_foruns h4{
+    color: #6e6e6e;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    display: inline;
+}
+
+#votacao{
+    background-color: white;
+    padding: 0px;
+    height: 400px;
+}
+
+.votos h3 {
+    color: #6e6e6e;
+    padding: 5px;
+}
+.votos img {
+    padding: 10px;
+    width: 29%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+}
+
+.votos input{
+    margin-left: 100px;
+}
+
+/* Pagina de animes */
+.comentarios {
+    background: #E4EAF4;
+    height: 50px;
+    width: 740px ;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+#forum .comentarios {
+    background: #E4EAF4;
+    height: 50px;
+    width: 1000px ;
+    margin-left: 0px;
+    margin-bottom: 2px;
+}
+
+.comentarios img{
+    margin: 5px 15px 5px 5px;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    border: 1px solid  #57A0FF;
+}
+.comentarios h5{
+    display: inline;
+    color: #25569C;
+}
+.comentarios p{
+    padding-top: 3px;
+    font-size: 0.8em;
+    color: black;
+}
+.comentarios .alinhar{
+    margin-top: 15px;
+}
+
+.sessao-memes {
+    margin-top: 10px;
+    height: 700px;
+    background-color: white;
+}
+.sessao-memes img{
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+/* area lateral */
+#sinopse{
+    background-color: white;
+    
+}
+#sinopse h3{
+    color: #6e6e66;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+#sinopse p {
+    color: #6e6e66;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+#personagens{
+    margin-top: 30px;
+    background-color: white;
+
+}
+#personagens h3{
+    display: inline;
+}
+#personagens ul{
+    list-style: none;
+}
+
+#personagens li{
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px dashed black;
+}
+#personagens li h3{
+    line-height: 3em;
+    margin-left: 10px;
+    color: #6e6e66;
+}
+.personagens-principais img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+#spoilers{
+    background-color: white;
+    padding: 0px;
+    
+}
+#spoilers img{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#spoilers a{
+    color: red;
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 20px;
+    text-align: center;
+}

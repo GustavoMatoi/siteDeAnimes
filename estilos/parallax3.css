@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body, html{
+    margin: 0;
+    height: 100%;
+    background-color: #1B314F;
+}
+.conteudo{
+    color: #777;
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+    font-size: 1.2em;
+}
+
+h3{
+    text-transform: uppercase;
+    color:black;
+    text-align: center;
+}
+
+/* Parallax*/
+.caixa1, .caixa2, .caixa3 {
+    height: 100%;
+    opacity: 0.7;
+    position: relative;
+}
+.caixa1{
+    background: url(../imagens/parasytewallpaper1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa2{
+    background: url(../imagens/parasytewallpaper2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.caixa3{
+    background: url(../imagens/parasytewallpaper3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.conteudo-titulo{
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.conteudo-titulo h1{
+    background-color: aqua;
+    color: white;
+    display: inline;
+    padding: 18px;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+.conteudo-titulo2{
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.conteudo-titulo2 h1{
+    background-color: brown;
+    color: black;
+    display: inline;
+    padding: 18px;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+
+.conteudo-titulo3{
+    position: absolute;
+    left: 0px;
+    top: 45%;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.conteudo-titulo3 h1{
+    background-color: yellow;
+    color: white;
+    display: inline;
+    padding: 18px;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+#voltar{
+    padding: 30px;
+    font-size: 1.5em;
+    background-color: white;
+}
+#voltar a{
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
